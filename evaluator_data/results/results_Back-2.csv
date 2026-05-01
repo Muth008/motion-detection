@@ -1,0 +1,2 @@
+session,gt_persons,gt_other,yolo_events,tp,fp,fn,precision,recall,f1,far_total,far_other,duration_min,avg_yolo_ms,p95_yolo_ms,avg_fps,avg_cpu_pct,avg_ram_mb,total_frames
+Back-2,0,0,0,0,0,0,100.0,100.0,100.0,0.0,0.0,0.43,315.86,315.86,4.7,10.99,498.68,125

@@ -1,0 +1,10 @@
+# Computer vision and deep learning
+opencv-python>=4.8.0
+ultralytics>=8.3.0
+numpy>=1.24.0
+
+# System monitoring (CPU/RAM in evaluator)
+psutil>=5.9.0
+
+# Environment-based configuration
+python-dotenv>=1.0.0

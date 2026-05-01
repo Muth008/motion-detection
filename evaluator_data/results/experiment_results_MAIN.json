@@ -1,0 +1,332 @@
+{
+  "ground_truth_file": "ground_truth_test_video_sub_main.csv",
+  "tolerance_s": 5.0,
+  "gt_events": [
+    {
+      "timestamp_s": 16.11,
+      "class_name": "person",
+      "distance": "close",
+      "video_time": "00:16.11",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 26.361,
+      "class_name": "person",
+      "distance": "close",
+      "video_time": "00:26.36",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 37.269,
+      "class_name": "person",
+      "distance": "close",
+      "video_time": "00:37.27",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 52.218,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "00:52.22",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 62.671,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "01:02.67",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 75.044,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "01:15.04",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 89.487,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "01:29.49",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 100.294,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "01:40.29",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 111.101,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "01:51.10",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 126.555,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "02:06.55",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 143.321,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "02:23.32",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 157.562,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "02:37.56",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 175.187,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "02:55.19",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 200.437,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "03:20.44",
+      "notes": ""
+    }
+  ],
+  "sessions": [
+    {
+      "session": "main_pw1500_exp6",
+      "gt_events": 14,
+      "yolo_events": 14,
+      "tp": 13,
+      "fp": 1,
+      "fn": 1,
+      "precision": 92.9,
+      "recall": 92.9,
+      "f1": 92.9,
+      "avg_yolo_ms": 245.77,
+      "p95_yolo_ms": 266.81,
+      "avg_fps": 4.42,
+      "avg_cpu_pct": 181.92,
+      "avg_ram_mb": 911.13,
+      "total_frames": 2259,
+      "_tp_pairs": [
+        {
+          "gt_time": "00:16.11",
+          "yolo_time": "13.84s",
+          "class": "person",
+          "distance": "close"
+        },
+        {
+          "gt_time": "00:26.36",
+          "yolo_time": "22.80s",
+          "class": "person",
+          "distance": "close"
+        },
+        {
+          "gt_time": "00:37.27",
+          "yolo_time": "32.39s",
+          "class": "person",
+          "distance": "close"
+        },
+        {
+          "gt_time": "00:52.22",
+          "yolo_time": "54.75s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:02.67",
+          "yolo_time": "65.57s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:15.04",
+          "yolo_time": "78.26s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:29.49",
+          "yolo_time": "88.11s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:40.29",
+          "yolo_time": "97.60s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:51.10",
+          "yolo_time": "110.73s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:06.55",
+          "yolo_time": "127.06s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:23.32",
+          "yolo_time": "139.30s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:37.56",
+          "yolo_time": "155.19s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:55.19",
+          "yolo_time": "175.95s",
+          "class": "person",
+          "distance": "far"
+        }
+      ],
+      "_fn_list": [
+        {
+          "gt_time": "03:20.44",
+          "class": "person",
+          "distance": "far",
+          "notes": ""
+        }
+      ],
+      "_fp_list": [
+        {
+          "yolo_time": "45.61s",
+          "class": "person"
+        }
+      ]
+    },
+    {
+      "session": "main_pw2000_exp6",
+      "gt_events": 14,
+      "yolo_events": 15,
+      "tp": 13,
+      "fp": 2,
+      "fn": 1,
+      "precision": 86.7,
+      "recall": 92.9,
+      "f1": 89.7,
+      "avg_yolo_ms": 243.32,
+      "p95_yolo_ms": 261.74,
+      "avg_fps": 3.56,
+      "avg_cpu_pct": 167.15,
+      "avg_ram_mb": 1036.04,
+      "total_frames": 2259,
+      "_tp_pairs": [
+        {
+          "gt_time": "00:16.11",
+          "yolo_time": "13.84s",
+          "class": "person",
+          "distance": "close"
+        },
+        {
+          "gt_time": "00:26.36",
+          "yolo_time": "22.80s",
+          "class": "person",
+          "distance": "close"
+        },
+        {
+          "gt_time": "00:37.27",
+          "yolo_time": "32.39s",
+          "class": "person",
+          "distance": "close"
+        },
+        {
+          "gt_time": "00:52.22",
+          "yolo_time": "54.75s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:02.67",
+          "yolo_time": "65.57s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:15.04",
+          "yolo_time": "78.26s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:29.49",
+          "yolo_time": "88.11s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:40.29",
+          "yolo_time": "97.60s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "01:51.10",
+          "yolo_time": "110.73s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:06.55",
+          "yolo_time": "126.88s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:23.32",
+          "yolo_time": "139.30s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:37.56",
+          "yolo_time": "154.39s",
+          "class": "person",
+          "distance": "far"
+        },
+        {
+          "gt_time": "02:55.19",
+          "yolo_time": "175.95s",
+          "class": "person",
+          "distance": "far"
+        }
+      ],
+      "_fn_list": [
+        {
+          "gt_time": "03:20.44",
+          "class": "person",
+          "distance": "far",
+          "notes": ""
+        }
+      ],
+      "_fp_list": [
+        {
+          "yolo_time": "45.61s",
+          "class": "person"
+        },
+        {
+          "yolo_time": "163.70s",
+          "class": "person"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+session,gt_events,yolo_events,tp,fp,fn,precision,recall,f1,avg_yolo_ms,p95_yolo_ms,avg_fps,avg_cpu_pct,avg_ram_mb,total_frames
+main_pw1500_exp6,14,14,13,1,1,92.9,92.9,92.9,245.77,266.81,4.42,181.92,911.13,2259
+main_pw2000_exp6,14,15,13,2,1,86.7,92.9,89.7,243.32,261.74,3.56,167.15,1036.04,2259

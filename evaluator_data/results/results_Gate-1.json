@@ -1,0 +1,67 @@
+{
+  "ground_truth_file": "./videos/ground_truth_Gate-1.csv",
+  "tolerance_s": 5.0,
+  "source_fps": 22.658927197706134,
+  "gt_events": [
+    {
+      "timestamp_s": 5.1,
+      "class_name": "person",
+      "distance": "far",
+      "video_time": "00:05.10",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 9.599,
+      "class_name": "person",
+      "distance": "close",
+      "video_time": "00:09.60",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 14.299,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:14.30",
+      "notes": ""
+    }
+  ],
+  "sessions": [
+    {
+      "session": "Gate-1",
+      "gt_persons": 2,
+      "gt_other": 1,
+      "yolo_events": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 100.0,
+      "recall": 50.0,
+      "f1": 66.7,
+      "far_total": 0.0,
+      "far_other": 0.0,
+      "duration_min": 0.24,
+      "avg_yolo_ms": 242.01,
+      "p95_yolo_ms": 251.54,
+      "avg_fps": 4.11,
+      "avg_cpu_pct": 31.6,
+      "avg_ram_mb": 507.18,
+      "total_frames": 324,
+      "_tp_pairs": [
+        {
+          "gt_time": "00:05.10",
+          "yolo_time": "1.4s",
+          "class": "person",
+          "distance": "far"
+        }
+      ],
+      "_fn_list": [
+        {
+          "gt_time": "00:09.60",
+          "class": "person",
+          "distance": "close"
+        }
+      ],
+      "_fp_list": []
+    }
+  ]
+}

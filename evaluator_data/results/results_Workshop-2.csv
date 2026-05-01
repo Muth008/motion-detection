@@ -1,0 +1,2 @@
+session,gt_persons,gt_other,yolo_events,tp,fp,fn,precision,recall,f1,far_total,far_other,duration_min,avg_yolo_ms,p95_yolo_ms,avg_fps,avg_cpu_pct,avg_ram_mb,total_frames
+Workshop-2,0,5,3,0,3,0,0.0,100.0,0.0,8.71,8.71,0.34,241.22,250.1,2.67,85.17,513.7,133

@@ -1,0 +1,47 @@
+{
+  "ground_truth_file": "./videos/ground_truth_Porch-2.csv",
+  "tolerance_s": 5.0,
+  "source_fps": 22.9847847199741,
+  "gt_events": [
+    {
+      "timestamp_s": 2.591,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:02.59",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 6.178,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:06.18",
+      "notes": ""
+    }
+  ],
+  "sessions": [
+    {
+      "session": "Porch-2",
+      "gt_persons": 0,
+      "gt_other": 2,
+      "yolo_events": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "far_total": 0.0,
+      "far_other": 0.0,
+      "duration_min": 0.09,
+      "avg_yolo_ms": 292.61,
+      "p95_yolo_ms": 345.34,
+      "avg_fps": 4.71,
+      "avg_cpu_pct": 12.16,
+      "avg_ram_mb": 482.77,
+      "total_frames": 142,
+      "_tp_pairs": [],
+      "_fn_list": [],
+      "_fp_list": []
+    }
+  ]
+}

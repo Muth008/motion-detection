@@ -1,0 +1,2 @@
+session,gt_persons,gt_other,yolo_events,tp,fp,fn,precision,recall,f1,far_total,far_other,duration_min,avg_yolo_ms,p95_yolo_ms,avg_fps,avg_cpu_pct,avg_ram_mb,total_frames
+Gate-1,2,1,1,1,0,1,100.0,50.0,66.7,0.0,0.0,0.24,242.01,251.54,4.11,31.6,507.18,324

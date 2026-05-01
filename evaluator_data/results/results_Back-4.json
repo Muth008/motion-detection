@@ -1,0 +1,40 @@
+{
+  "ground_truth_file": "./videos/ground_truth_Back-4.csv",
+  "tolerance_s": 5.0,
+  "source_fps": 11.949144441258005,
+  "gt_events": [
+    {
+      "timestamp_s": 10.461,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:10.46",
+      "notes": ""
+    }
+  ],
+  "sessions": [
+    {
+      "session": "Back-4",
+      "gt_persons": 0,
+      "gt_other": 1,
+      "yolo_events": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "far_total": 0.0,
+      "far_other": 0.0,
+      "duration_min": 0.17,
+      "avg_yolo_ms": 0.0,
+      "p95_yolo_ms": 0.0,
+      "avg_fps": 4.76,
+      "avg_cpu_pct": 11.79,
+      "avg_ram_mb": 452.56,
+      "total_frames": 125,
+      "_tp_pairs": [],
+      "_fn_list": [],
+      "_fp_list": []
+    }
+  ]
+}

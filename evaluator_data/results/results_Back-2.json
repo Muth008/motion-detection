@@ -1,0 +1,32 @@
+{
+  "ground_truth_file": "./videos/ground_truth_Back-2.csv",
+  "tolerance_s": 5.0,
+  "source_fps": 4.811534850139789,
+  "gt_events": [],
+  "sessions": [
+    {
+      "session": "Back-2",
+      "gt_persons": 0,
+      "gt_other": 0,
+      "yolo_events": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "far_total": 0.0,
+      "far_other": 0.0,
+      "duration_min": 0.43,
+      "avg_yolo_ms": 315.86,
+      "p95_yolo_ms": 315.86,
+      "avg_fps": 4.7,
+      "avg_cpu_pct": 10.99,
+      "avg_ram_mb": 498.68,
+      "total_frames": 125,
+      "_tp_pairs": [],
+      "_fn_list": [],
+      "_fp_list": []
+    }
+  ]
+}

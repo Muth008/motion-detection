@@ -1,0 +1,61 @@
+{
+  "ground_truth_file": "./videos/ground_truth_Workshop-1.csv",
+  "tolerance_s": 5.0,
+  "source_fps": 5.384913625985439,
+  "gt_events": [
+    {
+      "timestamp_s": 0.996,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:01.00",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 3.686,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:03.69",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 9.863,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:09.86",
+      "notes": ""
+    },
+    {
+      "timestamp_s": 23.213,
+      "class_name": "other",
+      "distance": "close",
+      "video_time": "00:23.21",
+      "notes": ""
+    }
+  ],
+  "sessions": [
+    {
+      "session": "Workshop-1",
+      "gt_persons": 0,
+      "gt_other": 4,
+      "yolo_events": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "far_total": 0.0,
+      "far_other": 0.0,
+      "duration_min": 0.38,
+      "avg_yolo_ms": 242.4,
+      "p95_yolo_ms": 250.02,
+      "avg_fps": 3.08,
+      "avg_cpu_pct": 66.48,
+      "avg_ram_mb": 497.47,
+      "total_frames": 125,
+      "_tp_pairs": [],
+      "_fn_list": [],
+      "_fp_list": []
+    }
+  ]
+}
