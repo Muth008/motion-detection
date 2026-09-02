@@ -175,6 +175,17 @@ distant objects, **not** by the YOLO classifier. The proposed direction for
 future work is integration of a Hailo-8 hardware accelerator to enable
 real-time main-stream processing.
 
+## Status
+
+This repository is frozen at `v1.0-thesis`, the state that accompanies the bachelor
+thesis. It is preserved as the citable artifact behind the published results and will
+not receive further changes.
+
+Development continues in a separate private repository, where the two directions listed
+as future work in the thesis — hardware-accelerated decoding of the camera's main stream
+on the Raspberry Pi 5, and integration of a Hailo-8 AI accelerator — are being
+implemented. Results from that work are not part of this repository.
+
 ## Citation
 
 If you use this code or its results in your work, please cite the thesis:
